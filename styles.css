@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #202020;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-container {
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 5px 10px;
+  background-color: #121212;
+  border: 1px solid #303030;
+  color: #fff;
+}
+
+.search-btn {
+  padding: 5px 10px;
+  background-color: #303030;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.page-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 240px;
+  height: calc(100vh - 60px);
+  background-color: #202020;
+  padding: 20px 0;
+  overflow-y: auto;
+}
+
+.nav-section, .subscriptions-section {
+  padding: 10px 0;
+}
+
+.nav-item, .channel-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  background-color: #303030;
+}
+
+.channel-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #0e83a7;
+  margin-right: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.subscription-header {
+  margin-bottom: 20px;
+}
+
+#game-container {
+  width: 70%;
+  height: 600px;
+  border-radius: 1%;
+  background-color: #4ca3af;
+  position: relative;
+  overflow: hidden;
+}
+
+#object {
+  width: 30px;
+  height: 30px;
+  background-color: #f44336;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+#ground {
+  width: 100%;
+  height: 50px;
+  background-color: #795548;
+  position: absolute;
+  bottom: 0;
+}
+
+.jumpPad {
+  width: 30px;
+  height: 10px;
+  background-color: green;
+  position: absolute;
+}
+
+#jumpPad1 {
+  left: 25%;
+  bottom: 50px;
+}
+
+.video-info {
+  margin-top: 20px;
+}
+
+.channel-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.channel-info {
+  margin-left: 10px;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.channel-name, .video-stats {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comment {
+  display: flex;
+  margin-top: 10px;
+}
+
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000000;
+  margin-right: 10px;
+}
+
+.comment-author {
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-top: 5px;
+}

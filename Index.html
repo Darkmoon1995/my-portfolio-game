@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscriptions - YouTube Style</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <span class="menu-btn">☰</span>
+      <span class="youtube-logo">YouTube</span>
+    </div>
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Search">
+      <button class="search-btn">🔍</button>
+    </div>
+    <div class="header-right">
+      <span>IMG</span>
+      <span>IMG</span>
+      <span>IMG</span>
+    </div>
+  </header>
+
+  <div class="page-container">
+    <nav class="sidebar">
+      <div class="nav-section">
+        <a href="/home/home.html" class="nav-item">Home</a>
+        <a href="#" class="nav-item">Shorts</a>
+        <a href="#" class="nav-item active">Subscriptions</a>
+      </div>
+      <div class="subscriptions-section">
+        <h3 class="section-title">Subscriptions</h3>
+        <a href="#" class="channel-item">
+          <div class="channel-avatar"></div>
+          <span>Fireship</span>
+        </a>
+        <a href="#" class="channel-item">
+          <div class="channel-avatar"></div>
+          <span>Technoblade</span>
+        </a>
+        <a href="#" class="channel-item">
+          <div class="channel-avatar"></div>
+          <span>mattbatwings</span>
+        </a>
+        <a href="#" class="channel-item">
+          <div class="channel-avatar"></div>
+          <span>TommyInnit</span>
+        </a>
+        <a href="#" class="channel-item">
+          <div class="channel-avatar"></div>
+          <span>OFF SCRIPT</span>
+        </a>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="subscription-header">
+        <h2>Latest from your subscriptions</h2>
+      </div>
+      <div class="game-wrapper">
+        <div id="game-container">
+          <div id="object"></div>
+          <div id="ground"></div>
+          <div class="jumpPad" id="jumpPad1"></div>
+        </div>
+        <div class="video-info">
+          <div class="channel-row">
+            <div class="channel-avatar"></div>
+            <div class="channel-info">
+              <div class="video-title">Simple Platform Game</div>
+              <div class="channel-name">Darkmoon</div>
+              <div class="video-stats">
+                <span>1.2K views</span>
+                <span>•</span>
+                <span>2 years ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comments-section">
+          <h3>Comments</h3>
+          <div class="comment">
+            <div class="comment-avatar"></div>
+            <div class="comment-content">
+              <div class="comment-author">User1</div>
+              <div class="comment-text">I could do better with AI</div>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-avatar"></div>
+            <div class="comment-content">
+              <div class="comment-author">User2</div>
+              <div class="comment-text">Dude This Game SUCKS</div>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment-avatar"></div>
+            <div class="comment-content">
+              <div class="comment-author">User3</div>
+              <div class="comment-text">Nice job</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
